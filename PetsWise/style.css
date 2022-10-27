@@ -1,0 +1,369 @@
+.importan_information{
+	position: relative;
+    text-align: center;
+    color: white;
+}
+.centered_text{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header1{
+	float:left;
+	margin-left: 20px;
+	width: auto;
+	height:120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header1 a {
+	margin:0 20px;
+}
+.header2{
+	width:auto;
+    height:120px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+
+}
+.cat_silhouette{
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.header3{
+	float:left;
+	margin-left: 20px;
+	width: auto;
+	height:120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header3 a {
+	margin:0 20px;
+}
+
+
+
+
+.topmenu a:hover{
+	color: #F63D3D;
+	text-decoration: underline;
+}
+.topmenu{
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	width: 900px;
+
+}
+.topmenu li {
+	list-style: none;
+	margin: 11px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.topmenu a {
+	text-decoration: none;
+	font-family: 'Montserrat';
+	color: black;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+
+}
+
+.container{
+	
+    height: 900px;
+    left: 0px;
+    top: 0px;
+	width: 100%;
+	background-color: #FFC632;
+	display: flex;
+	justify-content: center;
+
+}
+
+
+
+.main_info{
+    position: absolute;
+    width: 475px;
+    height: 317px;
+    left: 115px;
+    top: 476px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+}
+
+.button_Shop_Top{
+    position: absolute;
+    width: 200px;
+    background: #F63D3D;
+    box-shadow: 0px 0px 20px rgba(246, 61, 61, 0.7);
+    border-radius: 110px;
+    text-align: center;
+}
+.button_Shop_Now{
+    position: absolute;
+    width: 200px;
+    left: 222px;
+    border: 2px solid #f63d3db3;
+    border-radius: 110px;
+    text-align: center;
+    color: #fff;
+}
+.button_Shop_Top  h3{
+ color: #fff;
+}
+.button_Shop_Now  h3{
+    color: #ee4545;
+}
+a{
+    text-decoration: none;
+}
+
+.cat_and_dog_img{
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	width: 960px;
+	margin-left: 640px;
+	margin-top: 110px;
+}
+
+.ellipse{
+	width: auto;
+	height:auto;
+	margin-right: 10;
+	position: absolute;
+}
+.ellipse2{
+	width: auto;
+	height:auto;
+	margin-right: 10px;
+    position: absolute;
+    
+}
+.paws{
+	width: auto;
+	height:auto; 
+	margin-right: 110px;
+	position: absolute;
+}
+.cat{
+	width: auto;
+	height:auto;
+	margin-right: 10px;
+	position: absolute;
+}
+.dog{
+	width: auto;
+	height:auto;
+	margin-right: 110px;
+	position: relative;
+}
+.background{
+	position: relative;
+   margin-top: 150px;
+   width: auto;
+   height: auto;
+ 
+}
+
+.container2{
+    text-align: center;
+    padding: 50px 0 0 0px;
+    background-color: rgb(218, 218, 218);
+}
+.container2 h1{
+    text-align: center;
+    color: #ee4545;
+}
+.container2 h1 span{
+    color: #000;
+}
+
+.group_items{
+    max-width: 1280px;
+    padding-left: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    gap: 80px;
+}
+.group_items p{
+    width: 280px;
+}
+
+.suport h3, .truck h3, .security h3{
+    color: #F63D3D;
+}
+p{
+    font-size: 25px;
+    padding: 20px;   
+}
+.suport img{
+    background: rgba(0, 34, 156, 0.1);
+    border-radius: 8px;
+}
+
+.truck img{
+    background: rgba(152, 80, 197, 0.25);
+    border-radius: 8px;
+}
+.shield img{
+    background: rgba(0, 34, 156, 0.1);
+    border-radius: 8px;
+}
+
+
+.container3 h1{
+    color: #ee4545;
+    text-align: center;
+    font-size: 40px;
+}
+.container3 span{
+    color: #000;
+}
+.group_items2{
+    display: flex;
+    text-align: center;
+    margin: 50px 220px 20px 150px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+.Dog_Toys{
+    margin-top: -20px;
+}
+
+
+.container4{
+
+}
+
+.Vital_Care{
+    display: flex;
+    margin: 5% 15% 5% 15%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+}
+.viral_care{
+    margin-top: 80px;
+}
+
+
+.group_items3 h1 span{
+    color: #000;
+}
+.group_items3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 300px 50px 300px;
+    text-align: center;
+    gap: 30px;
+
+}
+.group_items3 h4 {
+    color: #ee4545;
+}
+.group_items3 h3 a{
+    color: #000;
+}
+
+.fon{
+    position: absolute;
+    width: 1600px;
+    height: 599px;
+    top: 3378px;
+}
+.cat3{
+    position: absolute;
+    width: 849px;
+    height: 623px;
+    left: 44px;
+    top: -25px;
+}
+.Guarantee{
+    position: absolute;
+    width: 478px;
+    height: 550px;
+    left: 900px;
+    top: 3530px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 31px;
+    text-transform: capitalize;
+}
+
+
+.Popular_Brands{
+    margin-top: 700px;
+    color: #ee4545;
+    text-align: center;
+    font-size: 20px;
+}
+.Popular_Brands span{
+    color: #000;
+}
+.Brands{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.container8{
+	width: 100%;
+	height: 465px;
+	background: linear-gradient(158.7deg, #F6CF4E 24.73%, #F3C730 55.55%, #F2CB3B 85.97%);
+	margin-top: 106px;
+	display: flex;
+	justify-content: space-between;
+}
+.New_Puppy{
+    text-align: center;
+    margin-top: 100px;
+    background: url(img/Large-image-text.png) no-repeat;
+    height: 500px;
+    margin: 0px 10% 0px 10%;
+}
+.New_Puppy span{
+    color: #ee4545;
+}
+.New_Puppy h1{
+    font-size: 45px;
+}
+.New_puppy{
+    position: absolute;
+    left: 37%;
+    margin-top: 120px;
+}
+.New_puppy div{
+    left: 30%;
+    margin-top: 20px;
+}
+
+
+
